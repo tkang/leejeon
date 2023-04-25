@@ -113,38 +113,42 @@ export default function Example() {
               {/* Introducing */}
             </span>
             <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-              William Hansan
+              Lee & Jeon
             </span>
             <span className="mt-2 block text-xl text-center leading-8 font-extrabold tracking-tight text-gray-500 sm:text-2xl">
-              Private Equity | VC | M&A
+              법률 사무소
             </span>
           </h1>
           <p className="mt-8 text-xl text-gray-800 leading-8">
+            {/*
             William Hansan is a boutique private equity and M&A advisory firm
             based in Seoul, Korea. We source small to midsize deals for
             strategic investors, help owners sell their business, and advise on
             raising capital for private companies. We also act as a financial
             investor in small to midsize deals in collaboration with SBK
             Partners.
+            */}
           </p>
         </div>
 
         <div className="mt-12 prose prose-indigo prose-lg text-gray-500 mx-auto">
           <hr />
+          {/* 
           <h2 className="text-center">Profile</h2>
+          */}
           <div className="text-center">
             <Image
               className="object-cover shadow-lg rounded-lg"
-              src="/wonku_lee.jpeg"
+              src="/jeonchiyoung.jpeg"
               alt=""
               width="256"
               height="384"
             />
           </div>
           <p className="text-center text-gray-900 font-bold">
-            <div>William Lee, CFA CPA CBV ABV MST</div>
+            <div>전치영 대표 변호사</div>
             <div>
-              <a href="mailto:wonkulee@gmail.com">wonkulee@gmail.com</a>{" "}
+              <a href="mailto:leejeon@gmail.com">leejeon@gmail.com</a>{" "}
               <a
                 href="https://www.linkedin.com/in/william-wonku-lee"
                 target="_blank"
@@ -168,6 +172,7 @@ export default function Example() {
             </div>
           </p>
 
+          {/*
           <ul role="list">
             <li>CEO, William Hansan</li>
             <li>Director, SBK Partners</li>
@@ -195,75 +200,36 @@ export default function Example() {
             and the Master of Science in Taxation program from the University of
             Seoul specializing in international taxation.​
           </p>
-          <h2 className="text-center">Professional Designations</h2>
+           */}
+          <h2 className="text-center">주요 경력 </h2>
           <ul role="list">
-            <li>Certified Public Accountant (U.S. Illinois)</li>
-            <li>
-              Chartered Professional Accountant, Chartered Accountant (Canada)
-            </li>
-            <li>Chartered Financial Analyst (CFA Institute)</li>
-            <li>Accredited in Business Valuation (AICPA)</li>
-            <li>Chartered Business Valuator (CBV Institute)</li>
+            <li>Y&CO 법률사무소</li>
+            <li>법무법인 산우</li>
+            <li>변호사 전치영 법률사무소</li>
+            <li>법무법인 엠</li>
+            <li>리앤전 법률사무소</li>
+            <li>코스닥상장사 ㈜UCI, ㈜디모아, 前 사외이사</li>
           </ul>
+
           <h2 className="text-center">Education</h2>
           <ul role="list">
-            <li>
-              Master of Science in Taxation (International Tax), University of
-              Seoul
-            </li>
-            <li>Master of Accounting (MAcc), University of Waterloo</li>
-            <li>
-              Honours Bachelor of Mathematics / Chartered Accountancy Studies
-              Co-op (BMath), University of Waterloo
-            </li>
+            <li>서울대학교 졸업</li>
+            <li>변호사시험 5회</li>
           </ul>
-          <h2 className="text-center">Selected M&A advisory experiences</h2>
+          <h2 className="text-center">주요 업무사례</h2>
           <ul role="list">
-            <li>
-              Samsung Electronics{"'"} acquisitions of Yesco Electronics (US),
-              Quietside (US), PrinterOn (Canada) (Financial DD, valuation,
-              structuring, SPA & negotiation support)
-            </li>
-            <li>
-              National Pension Service{"'"}s investment in the 7th largest cable
-              operator based in the United States, an industrial product
-              distributor in France, and a French distributor specialized in
-              industrial products (Transaction Advisory)
-            </li>
-            <li>
-              Blackstone{"'"}s investment in Simone, a handbag OEM company based
-              in Korea (Financial DD)
-            </li>
-            <li>
-              Temasek{"'"}s investment in Celltrion Healthcare, a biosimilar
-              company based in Korea (Financial DD)
-            </li>
-            <li>
-              Disney{"'"}s acquisition of an online game development company
-              (Financial DD)
-            </li>
-            <li>
-              Doosan{"'"}s proposed acquisition of Ansaldo Energia S.p.A based
-              on Italy (Financial DD) and acquisition of a water/wastewater
-              treatment engineering company based in U.K. (Financial DD &
-              valuation)
-            </li>
-            <li>
-              Kolmar{"'"}s acquisition of CSR Cosmetics Solution, a Canadian
-              cosmetics OEM company (SPA & negotiation support)
-            </li>
-            <li>
-              POSCO{"'"}s proposed investment in a lithium battery company
-              (Valuation)
-            </li>
-            <li>
-              Korea Electric Power Corp{"'"}s acquisition of 4th largest coal
-              producer in Indonesia (Financial DD)
-            </li>
-            <li>
-              Divestiture of Vaunce Co., Ltd., an indoor trampoline park company
-              based in Korea (Sell side advisory)
-            </li>
+            <li>사기, 횡령, 배임 등 사건 다수</li>
+            <li>P기업 특경(횡령)사건 고소대리</li>
+            <li>L자산운용 자본시장법 위반사건 변호</li>
+            <li>O자산운용 자본시장법 위반사건 변호</li>
+            <li>H기업 대표이사 근로기준법 위반사건 변호</li>
+            <li>M기업 특경(횡령)사건 변호</li>
+            <li>S기업 노조와해사건 변호</li>
+            <li>S기업 자본시장법 위반 사건 변호</li>
+            <li>B기업 공정거래법 위반 사건 변호</li>
+            <li>W기업 채용비리사건 변호</li>
+            <li>G소속사 대 연예인H 고소대리</li>
+            <li>K기업과 M기업 M&A 자문 등 다수 기업사건 및 법률자문 수행</li>
           </ul>
         </div>
       </div>
