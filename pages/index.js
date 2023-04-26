@@ -139,7 +139,7 @@ export default function Example() {
           <div className="text-center">
             <Image
               className="object-cover shadow-lg rounded-lg"
-              src="/jeonchiyoung.jpeg"
+              src="/jeonchiyoung2.jpeg"
               alt=""
               width="256"
               height="384"
